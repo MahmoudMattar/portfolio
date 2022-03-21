@@ -75,6 +75,13 @@ const skills = {
           },
         },
         {
+          skillName: "NextJS",
+          fontAwesomeClassname: "logos:nextjs",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
@@ -103,7 +110,7 @@ const skills = {
           },
         },
         {
-          skillName: "Java",
+          skillName: "C# C-Sharp",
           fontAwesomeClassname: "simple-icons:csharp",
           style: {
             color: "#f89820",
@@ -424,15 +431,17 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "FRONT-END web develope",
+          title: "FRONT-END web developer",
           company: "EL Delta Electronic Systems",
           company_url: "https://el-delta.com/en",
           logo_path: "delta.png",
           duration: "Feb 2021 - Present",
           location: "Office",
-          description: ` Working within an integrated team to create databases and user interfaces for national projects⚡⚡
-             within the government's initiatives to digitize the state, including water, electricity and supply projects.⚡⚡
-            In addition to supervising projects of the Ministry of Higher Education to digitize Egyptian universities 
+          description: ` 
+          ⚡⚡Working within an integrated team to create databases and user interfaces for national projects within the government's initiatives to digitize the state, including water, electricity and supply projects.
+          ⚡⚡In addition to supervising projects of the Ministry of Higher Education to digitize Egyptian universities 
+          ⚡⚡Responsible for developing and updating the company's websites 
+          (El-Delta,El-Delta Cloud & El-DeltaTrust), Technologies and Frameworks used (Nodejs, Reactjs “Gatsbyjs”, SASS, Styled-components, i18next,.)
           `,
           color: "#0071C5",
         },
@@ -553,9 +562,8 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Static Responsive Website",
-      url:
-        "https://github.com/MahmoudMattar/Build-a-Responsive-Website-using-React--Gatsby--and-GraphQL",
+      name: "El-Delta Electronic Systems",
+      url: "https://github.com/MahmoudMattar/Build-a-Responsive-Website-using-React--Gatsby--and-GraphQL",
       description:
         "Build a Responsive-Website-using-React--Gatsby--and-GraphQL",
       languages: [
@@ -663,6 +671,31 @@ const projects = {
         {
           name: "Firebase",
           iconifyClass: "logos-firebase",
+        },
+      ],
+    },
+
+    {
+      id: "5",
+      name: "El-DeltaTrust",
+      url: "https://www.el-deltatrust.com",
+      description: "El-Delta Trust Offical website 👇",
+      languages: [
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos-nodejs",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Nextjs",
+          iconifyClass: "logos-nextjs",
         },
       ],
     },
